@@ -22,11 +22,6 @@
     "storybook": "start-storybook -p 9001",
     "build-storybook": "build-storybook -o .storybook-out"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint"
-    }
-  },
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@storybook/addon-actions": "6.0.5",
