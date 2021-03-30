@@ -1,0 +1,37 @@
+{
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "javascript.format.enable": false,
+  "editor.minimap.maxColumn": 120,
+  "html.format.wrapLineLength": 120,
+  "files.associations": {
+    "**/fastlane/*file": "ruby",
+    "Jenkinsfile.*": "groovy"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.bracketSpacing": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "files.exclude": {
+    "locales/.messages/**": true,
+    "pages/**": false,
+    ".next": false,
+    ".vscode": true,
+    ".gitignore": true,
+    ".npmignore": true,
+    "Dockerfile": true,
+    "Dockerfile.storybook": true,
+    ".prettierrc": true,
+    "next-env.d.ts": true,
+    "next.config.js": true,
+    "tsconfig.json": false,
+    "config.tmp.yml": false,
+    "package-lock.json": true,
+    ".babelrc": true,
+    "yarn.lock": false,
+    "yarn-error.log": true
+  },
+  "cSpell.words": ["pmsg"],
+  "compile-hero.disable-compile-files-on-did-save-code": true
+}

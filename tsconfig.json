@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "rootDir": ".",
+    "paths": {
+      "tnsmart-ui": [
+        "./packages/tnsmart-ui"
+      ],
+      "tnsmart-core": [
+        "./packages/tnsmart-core"
+      ],
+      "tnsmart-my-tasks-shared": [
+        "./packages/tnsmart-apps/my-tasks/shared"
+      ]
+    }
+  },
+  "exclude": [
+    "./node_modules",
+    ".next"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.jsx"
+  ]
+}
